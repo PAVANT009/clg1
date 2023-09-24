@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #3A3535;
+    margin: 0px; 
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+header h1{
+    padding-left: 20px;
+    font-family: 'Mooli';
+    font-weight: bolder;
+    font-size: 100px;
+    color: rgba(253, 187, 45, 100);
+}
+
+button{
+    border-radius: 25px ;
+    box-shadow: #000;
+    color: #010E12;
+    font-size: 30px;
+    padding-bottom: 0px;
+    background-color:  transparent;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.jobs{
+    padding: 0px 20px;
+    font-weight: 500;
+    border: 5px solid #A2D7E7;
+}
+.services{
+    padding: 0px 20px;
+    font-weight: 500;
+    border: 5px solid #ADEDB3;
+
+}
+.home{
+    /* padding: 5px 15px; */
+    font-weight: 600;
+    border: 4px solid transparent;
+    background: rgb(34,193,195);
+    background: linear-gradient(74deg, rgba(34,193,195,1) 0%, rgba(0,233,113,1) 58%);
+}
+.buttons{
+    padding-left: 300px;
+    padding-top: 100px;
+} 
+.buttons:hover{
+    box-shadow: #232020;
+}
+
+header h2{
+    padding-left: 20px;
+    margin: 0px;
+}
+
+body{
+    background-color: #3A3535;
+    padding: 0px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content h3{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    padding-top: 250px;
+}
+
+.cards{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    width: 100%;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 13px;
+    border: 5px solid ; 
+    overflow: hidden;
+    background-color: #232020;   
+    border: none;
+    color: #F4F4F4;
+}
+
+img{
+    height: 100px;
+    border-radius: 15cm;
+}
+
+.section {
+    min-width: 100vw; /* Make each section at least the width of the viewport */
+    height: 100vh; /* Set the height to fit the viewport */
+    padding: 20px;
+    background-color: #F4F4F4;
+}
+
+.input-pack{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+input{
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-weight: 400;
+}
+  
+.search-input {
+    width: 350px;
+    border: 1px solid #ccc;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    background-image: url('search.svg'); /* Replace with the path to your SVG */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust position as needed */
+    background-size: 20px 20px; /* Adjust size as needed */
+    outline: none; /* Remove input focus outline if needed */
+    margin-left: 90px;
+  }
+
+.response{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 3px;
+    font-weight: 400;
+
+}
+.login{
+    font-size: 20px;
+    padding: 10px;
+    border: transparent;
+    background-color: #fff;
+}
+.sign{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+    background-color:#FF7315 ;
+    border: transparent;
+    color: #fff;
+
+}
+h2{
+    font-size: 20px;
+}
+.tag{
+    font-size: 40px;
+}
+
+.sign:hover{
+    transform: scale(1.1) ;
+    transition: transform 0.9s ease;
+
+}
+
+.sub2{
+    display: flex;
+    flex-direction: row;
+
+}
+.review{
+    height: 400px;
+    width: 75vh;
+    border-radius: 15px;
+    box-shadow: #000;
+    box-shadow: #000 12cm;
+    padding: 20px;
+}
+hr{
+    color: #000;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 1.3s ease;
+}
+
+.card.c2 img{
+    width: 100px;
+  }
